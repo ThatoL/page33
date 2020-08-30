@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0; 
+    height: 100vh;
+    background: #E9ECEF;
+    
+   
+}
+
+header {
+    background: rgb(218, 195, 132);
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    border-radius: 10px;
+    border-bottom: 2px solid grey;
+    padding: 20px;
+    margin: 10px;
+}
+
+header .nav-container {
+    align-items: flex-end;
+
+}
+
+nav a {
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(8, 3, 3);;
+}
+
+.name-container {
+    color: rgb(0, 0, 0);
+}
+
+.img-container {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.9;
+    left: 10%;
+}
+
+.about-me {
+    position: relative;
+    top: 80%;
+    float: right;
+    width: 40%;
+    right: 110px;
+    
+    border-radius: 5px;
+}
+
+main {
+    color: rgb(8, 3, 3);
+    
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+
+img {
+    height: 400px;
+    width: 350px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 10;
+}
+
+footer {
+    position: relative;
+    top: 0px;
+    text-align: center;
+    background: rgb(218, 195, 132);
+    font-family: 'Inconsolata', monospace;
+    color: rgb(8, 3, 3);
+    padding: 1px;
+    
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+i {
+    color: black;
+    width: 40px;
+    height: 40px;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    clear: both;
+}
+
+
+
+form {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  input {
+    border: none;
+    padding: 10px;
+    border-bottom: 2px solid grey;
+    margin: 5px;
+    width: 300px;
+    
+  }
+  
+  textarea {
+    border: none;
+    border-bottom: 2px solid grey;
+    margin: 15px;
+    
+  }
+  
+  #submit {
+    width: 200px;
+    color: grey;
+    border: none;
+    border-radius: 15px;
+    
+  }
+
+  .contact-container {
+      border-top: 2px solid grey;
+      background: rgb(255, 255, 255);
+      font-family: 'Roboto', sans-serif;
+      clear: both;
+      width: auto;
+      font-family: 'Oswald', sans-serif;
+  }
+
+  .contact-container h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px;
+  }
+
+  .contact-container p {
+      text-align: center;
+      font-size: 15px;
+  }
+
+  .grid-container {
+      grid-template-columns: 50% 50%;
+  }
